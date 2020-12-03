@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	background-image: url("img/oh-la-la.jpeg");
+	background-image: url(seafood.jpg)
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -11,24 +11,39 @@ html {
 	text-align: center;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+img {
+	overflow: hidden;
+	width: 3000px;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
 }
 svg {
-	fill: #ffffff;
-	background: rgba(0, 0, 0, 0.1);
-	padding: 20px;
+	fill: #eeba0e;
+	background: rgba(3, 14, 168, 0.89);
+	padding: 60px;
 	border-radius: 50%;
-	width: 200px;
-	margin-bottom: 50px;
+	width: 500px;
+	margin-bottom: 70px;
 }
 .wrapper {
 	padding: 20px;
-	max-width: 350px;
-	background: rgba(255,255,255,0.95);
-	box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+	content: inherit;
+
+	width: 500px;
+	height: 300px;
+
+	background: rgba(237, 241, 209, 0.95);
+	box-shadow: 0 0 0 10px rgba(0,0,0,);
 }
 h2 {
 	text-align: center;
@@ -67,6 +82,7 @@ h2 {
 }
 .add-items {
 	margin-top: 20px;
+
 }
 .add-items input {
 	padding: 10px;
